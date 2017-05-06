@@ -43,8 +43,8 @@ var reset = function () {
     hero.x = canvas.width/2;
     hero.y = canvas.height/2;
     //将怪物随机到地图上任意地方
-    monster.x = 32 + (Math.random()*(canvas.width - 64))
-    monster.y = 32 + (Math.random()*(canvas.height - 64))
+    monster.x = 32 + (Math.random()*(canvas.width - 84))
+    monster.y = 32 + (Math.random()*(canvas.height - 84))
 };
 //更新对象
 var update = function(modifer) {
